@@ -1,0 +1,13 @@
+@media (max-width: 640px){
+	.slider{
+		flex-direction: column;
+		height: 100vh;
+
+	}
+	.item{
+		width: 100%;
+	}
+	.item:hover{
+		flex-grow: 30%;
+	}
+}s
