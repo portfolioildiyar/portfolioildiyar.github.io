@@ -1,0 +1,336 @@
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', bold;
+  }
+ .container-fluid{
+  width: 100%;
+ }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  .header{
+    background: url("img/header-bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .container{
+    width: 1140px;
+    margin-left: auto;
+    margin: auto;
+  }
+ .logo-holder{
+      width: 300px;
+      padding-top: 45px;
+      padding-bottom: 45px;
+    }
+    .navition-holder ul{
+      text-transform: uppercase;
+      color: #fff;
+      padding-left: 30px;
+      justify-content: flex-end;
+      display: flex;
+      width: 800px;
+      padding-top: 38px;
+      padding-bottom: 25px;
+    }
+   .heading-1{
+    position: relative;
+    margin: 0;
+    display: flex;
+    color: #fff;
+    font-size: 80px;
+   }
+   .heading-2{
+
+    margin: 0;
+    color: #fff;
+    justify-content: flex-end;
+    font-size: 80px;
+    display: flex;
+   }
+   .all-heading_brand{
+          padding-top: 250px;
+   }
+   .border_middle{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 300px;
+    position: absolute;
+    text-align: center;
+    transform: rotate(125deg);
+    width: 260px;
+    height: 5px;
+    background: #5e42b0;
+   }
+   p{
+    margin: 0;
+    padding: 0;
+   }
+   .menu ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .menu ul li{
+     padding-left: 30px;
+   }
+   .menu ul li a{
+    color: #5e42b0;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+   .bottom{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .box-1:hover{
+        background: #7460ae;
+   }
+   .box-2:hover{
+        background: #7460ae;
+   }
+
+   .box-1{
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: black 1px 1px 10px;
+    border-radius: 60px;
+    margin: 50px;
+    width: 250px;
+    height: 70px;
+    background: #5e42b0;
+   }
+   .box-2{
+    transition: all 0.3s;
+      cursor: pointer;
+      box-shadow: black 1px 1px 10px;
+    border-radius: 60px;
+      margin: 50px;
+    width: 250px;
+    height: 70px;
+    background: #5e42b0;
+   }
+   .box_text_1{
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .box_text{
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+   }
+   .box_text_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .player_text{
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #e7e7e7;
+    font-size: 45px;
+   }
+   .all_text_number{
+    font-weight: 600;
+    font-size: 25px;
+     color: #c1c1c1;
+   }
+   .text-player_football{
+    color: #000000;
+   }
+   .number-1{
+    position: relative;
+   }
+   .all_text_number-1:before {  
+    content: " 1"; 
+    font-size: 15px; 
+    border: 2px solid #5e42b0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 20px;
+    text-align: center;
+    position: relative; 
+    display: block;  
+   }
+   .all_text_number-2:before {  
+    content: " 2"; 
+    font-size: 15px; 
+    border: 2px solid #5e42b0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 20px;
+    text-align: center;
+    position: relative; 
+    display: block;  
+   }
+   .all_text_number-3:before {  
+    content: " 3"; 
+    font-size: 15px; 
+    border: 2px solid #5e42b0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 20px;
+    text-align: center;
+    position: relative; 
+    display: block;  
+   }
+
+.flex-item {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 90px;
+
+}
+.container_box{
+  width: 100%;
+}
+.div_person{  
+  background: url("img/person.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh;
+}
+.lorem-1:after{
+  content: "";
+  margin-top: 140px;
+  display: block;
+  border-bottom: 3px solid #fff;
+  width: 30px;
+  height: 3px; 
+}
+.div_person_2{
+  background: url("img/Football-players.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh
+}
+.div_person_3{
+   background: url("img/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh
+}
+.div_text_person{
+  background: #0a0e34;
+  width: 50%;
+  height: 100vh;
+}
+.lorem{
+  padding-top: 150px;
+  color: #e7e7e7;
+  font-size: 45px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.lorem-1{
+   padding-top: 50px;
+  color: #fff;
+  font-size:15px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container-footer{
+  width: 100%;
+}
+.bg-footer{
+
+  background: url("img/footerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-footer{
+  padding: 200px;
+  width: 900px;
+  height: 550px;
+  margin: 0 auto;
+  display: block;
+}
+.icon{
+  display: flex;
+  padding-left: 150px;
+}
+.icon-text{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+}
+.footer-down{
+     background: #14173c;
+  width: 100%;
+  height: 100px;
+}
+.copyright{
+  margin-top: 30px;
+  width: 480px;
+  background: url("icons/logo-holder.png") no-repeat ;
+}
+.icon-footer{
+  padding-top: 30px;
+  display: flex;
+}
+.i-f-1{
+  background: url("icons/facebook.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 50px;
+}
+.i-f-2{
+  background: url("icons/twitter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 50px;
+}
+.i-f-3{
+  background: url("icons/instagram.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33px;
+  width: 50px;
+}
+.div_copy{
+  color: #fff;
+  padding-top: 35px;
+  padding-left: 250px;
+}
