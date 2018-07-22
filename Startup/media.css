@@ -1,0 +1,15 @@
+@media (max-width: 1024px){
+	.row{
+	  display: flex;
+	  flex-direction: column;
+	}
+	.col-1{
+		align-self: center;
+	}
+	.heading-2{
+		align-self: center;
+	}
+	.holder{
+		align-self: center;
+	}
+}
