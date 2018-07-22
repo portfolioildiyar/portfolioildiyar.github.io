@@ -1,0 +1,36 @@
+    @import url('https://fonts.googleapis.com/css?family=Chela+One');
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+  body{
+    font-family: 'Chela One', cursive;
+    margin: 0;
+    padding: 0;
+    background: #44413a;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+
+  .profil{
+    text-transform: uppercase;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    height: 150px;
+    color: #44413a;
+    border-radius: 60px;
+    background: #efe19d ;
+  }
+ .heading{
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  margin: 0 auto;
+  overflow: auto;
+  width: 600px;
+  height: 250px;
+ }
+ .c{
+  color: #fff;
+ }
