@@ -10,7 +10,75 @@
     font-size: 25px;
     color: #fff;
   }
-  
+   .skills{
+    width: 500px;
+    margin: 60px auto; 
+    color: #fff;
+ }
+ .skills li{
+    margin: 20px 0;
+ }
+ .bar{
+    width: 100%;
+    display: block;
+    border: 1px solid #20B2AA;
+    box-shadow: 0 0 10px #008080;
+    height: 3px;
+    border-radius: 3px;
+ }
+ .bar span{
+   height: 3px;
+   display: flex;
+   background: #008080;
+ }
+ .html{
+    width: 70%;
+    animation: html 2s;
+ }
+ .css{
+    width: 60%;
+    animation: css 2s;
+ }
+ .js{
+    width: 20%;
+    animation: js 2s;
+ }
+ .bs{
+    width: 10%;
+    animation: bs 2s;
+ }
+ @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+ }
+ @keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+ }
+ @keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+ }
+ @keyframes bs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+ }
 
   .profil{
     text-transform: uppercase;
